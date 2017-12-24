@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <canvas id="myCanvas" width="600px" height="400px">
+    </canvas>
+  <script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // top bar
+    ctx.fillStyle = "#133180";
+    ctx.fillRect(0, 0, 600, 120);
+
+    // bottom bar
+    ctx.fillStyle = "#133180";
+    ctx.fillRect(0, 280, 600, 120);
+
+    // red half circle 1
+    ctx.fillStyle = "#bd2e38";
+    ctx.beginPath();
+    ctx.arc(200, 200, 150, .4, 1.2 * Math.PI);
+    ctx.closePath();
+    ctx.fill();
+
+
+    // red half circle 2
+    ctx.fillStyle = "#bd2e38";
+    ctx.beginPath();
+    ctx.arc(200, 200, 150, -3.7, -.2 * Math.PI);
+    ctx.closePath();
+    ctx.fill();
+    // yellow small circle
+    ctx.fillStyle = "#f5cf54";
+    ctx.beginPath();
+    ctx.arc(200, 200, 70, 0, Math.PI * 2, true);
+    ctx.closePath();
+    ctx.fill();
+  </script>
+</body>
+
+</html>
