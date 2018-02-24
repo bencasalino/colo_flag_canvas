@@ -1,7 +1,4 @@
 # Colorado Flag made in with HTML Canvas
-
-One Paragraph of project description goes here
-
 ## Getting Started
 
 Run index.html in any browser to view.
