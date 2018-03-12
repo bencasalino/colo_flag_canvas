@@ -4,9 +4,10 @@
 Run index.html in any browser to view.
 
 ### Prerequisites
-
 None
 
+## App Layout
+![Layout of the Website](Layout.png)
 
 
 ## Built With
