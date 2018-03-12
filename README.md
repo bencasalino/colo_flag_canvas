@@ -9,6 +9,8 @@ None
 ## App Layout
 ![Layout of the Website](Layout.png)
 
+## Deployed
+- Link to: [Hosted Project](https://colorado-flag-canvas.firebaseapp.com/)
 
 ## Built With
 
